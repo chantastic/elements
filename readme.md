@@ -28,20 +28,25 @@ This is an artifact, using the elements of ui style retained there.
 This is how it decomposes:
 
 ```jsx
+// App-level
 <LargeCreateButton />
+<CreateButton size={6} />
+<ActionButton size={6} />
+<DestroyButton size={6} />
 
-<CreateElementsButton size={6} />
-
+// primary-library-export
 <ElementsButton size={6} variant="create" />
 
+// secondary-library-export
 <Button
   className={[
     "button",
     buttonAction("create"),
-    buttonSize(6)].join(" ")
-  }
+    buttonSize(6)
+  ].join(" ")}
 />
 
+// browser-output
 <button
   type="button"
   className="button button--variant_create button--size_6"
