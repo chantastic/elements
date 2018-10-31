@@ -1,0 +1,6 @@
+.update-button {
+  background-color: yellow;
+  border-color: yellow;
+  background-color: var(--theme-color-update);
+  border-color: var(--theme-color-update);
+}

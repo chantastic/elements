@@ -1,0 +1,7 @@
+.destroy-button {
+  background-color: red;
+  border-color: red;
+  background-color: var(--theme-color-destroy);
+  border-color: var(--theme-color-destroy);
+  color: white;
+}

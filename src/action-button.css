@@ -1,0 +1,7 @@
+.action-button {
+  background-color: blue;
+  border-color: blue;
+  background-color: var(--theme-color-action);
+  border-color: var(--theme-color-action);
+  color: white;
+}

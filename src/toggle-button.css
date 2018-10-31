@@ -1,0 +1,6 @@
+.toggle-button {
+  background-color: gray;
+  border-color: gray;
+  background-color: var(--theme-color-toggle);
+  border-color: var(--theme-color-toggle);
+}
