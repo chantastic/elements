@@ -23,6 +23,10 @@ Our design system lives in articles at [planningcenter.design](https://planningc
 
 This is an artifact, using the elements of ui style retained there.
 
+## Thinking as of 11/1
+
+
+
 ## Thinking as of 10/31
 
 This is how it decomposes:
