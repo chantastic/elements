@@ -1,7 +1,0 @@
-.create-button {
-  background-color: green;
-  border-color: green;
-  background-color: var(--theme-color-create);
-  border-color: var(--theme-color-create);
-  color: white;
-}

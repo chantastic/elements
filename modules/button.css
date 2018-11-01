@@ -1,0 +1,104 @@
+:root {
+  --theme-color-action: blue;
+  --theme-color-create: green;
+  --theme-color-destroy: red;
+  --theme-color-update: yellow;
+  --theme-color-default: lightgray;
+}
+
+/*! btn.css */
+.button {
+  font-size: 1em;
+  line-height: 2em;
+  display: inline-block;
+  padding: 0 1em;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button--variant_action {
+  background-color: blue;
+  border-color: blue;
+  background-color: var(--theme-color-action);
+  border-color: var(--theme-color-action);
+  color: white;
+}
+
+.button--variant_create {
+  background-color: green;
+  border-color: green;
+  background-color: var(--theme-color-create);
+  border-color: var(--theme-color-create);
+  color: white;
+}
+
+.button--variant_default {
+  background-color: lightgray;
+  border-color: lightgray;
+  background-color: var(--theme-color-default);
+  border-color: var(--theme-color-default);
+}
+
+.button--variant_destroy {
+  background-color: red;
+  border-color: red;
+  background-color: var(--theme-color-destroy);
+  border-color: var(--theme-color-destroy);
+  color: white;
+}
+
+.button--variant_update {
+  background-color: yellow;
+  border-color: yellow;
+  background-color: var(--theme-color-update);
+  border-color: var(--theme-color-update);
+}
+
+.button--height_2 {
+  font-size: 10px;
+  line-height: 14px;
+  border-width: 1px
+}
+
+.button--height_3 {
+  font-size: 12px;
+  line-height: 22px;
+  border-width: 1px
+}
+
+.button--height_4 {
+  font-size: 14px;
+  line-height: 30px;
+  border-width: 1px
+}
+
+.button--height_5 {
+  font-size: 16px;
+  line-height: 38px;
+  border-width: 1px
+}
+
+.button--height_6 {
+  font-size: 18px;
+  line-height: 46px;
+  border-width: 1px
+}
+
+.button--height_7 {
+  font-size: 20px;
+  line-height: 54px;
+  border-width: 1px
+}
+
+.button--height_8 {
+  font-size: 24px;
+  line-height: 62px;
+  border-width: 1px
+}

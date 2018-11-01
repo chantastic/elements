@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "next": "7.0.2",
     "react": "16.7.0-alpha.0 - next",
     "react-dom": "16.7.0-alpha.0 - next"
