@@ -1,5 +1,16 @@
 import React from "react";
 
+function excludesWithLog(e, s) {
+  let excluded = e.indexOf(s) === -1;
+  if (excluded) {
+    console.warn(
+      "nope. use one of these values for height: ",
+      variants
+    );
+  }
+  return excluded;
+}
+
 let variants = [
   "action",
   "create",
@@ -9,27 +20,19 @@ let variants = [
 ];
 
 export function buttonVariant(variant) {
-  if (variants.indexOf(variant) === -1) {
-    variant = "default";
-    console.log(
-      "nope. use one of these values for height: ",
-      variants
-    );
-    return;
-  }
+  variant = excludesWithLog(variants, variant)
+    ? "default"
+    : variant;
+
   return `button--variant_${variant}`;
 }
 
 let heights = [2, 3, 4, 5, 6, 7, 8];
 
 export function buttonHeight(height) {
-  if (heights.indexOf(height) === -1) {
-    height = 4;
-    console.log(
-      "nope. use one of these values for height: ",
-      heights
-    );
-  }
+  height = excludesWithLog(heights, height)
+    ? 4
+    : height;
 
   return `button--height_${height}`;
 }
