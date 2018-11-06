@@ -22,6 +22,20 @@ Our design system lives in articles at [planningcenter.design](https://planningc
 
 This is an artifact, using the elements of ui style retained there.
 
+## Core concepts
+
+### Standard
+
+Standards stand the test of time.  
+They're widely documented.  
+They're easier to train people in.  
+They're easier to hire for.  
+They're stack agnostic.  
+
+The main exports of this project are browser-standard — CSS and JavaScript.  
+In addition, there are non-standard React component consumers.
+
+
 ## Thinking as of 11/1
 
 ### "button" is the wrong abstraction
