@@ -1,0 +1,65 @@
+:root {
+  --theme-avatar-border-color: lightgray;
+}
+
+.avatar {
+  box-sizing: border-box;
+  border-radius: 9999px;
+  /* add clipping */
+}
+
+.avatar--border_true {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--theme-avatar-border-color);
+}
+
+.avatar--size_3 {
+  height: 24px;
+  width: 24px;
+}
+
+.avatar--size_4 {
+  height: 32px;
+  width: 32px;
+}
+
+.avatar--size_5 {
+  height: 40px;
+  width: 40px;
+}
+
+.avatar--size_6 {
+  height: 48px;
+  width: 48px;
+}
+
+.avatar--size_7 {
+  height: 56px;
+  width: 56px;
+}
+
+.avatar--size_8 {
+  height: 64px;
+  width: 64px;
+}
+
+.avatar--size_9 {
+  height: 72px;
+  width: 72px;
+}
+
+.avatar--size_10 {
+  height: 80px;
+  width: 80px;
+}
+
+.avatar--size_11 {
+  height: 88px;
+  width: 88px;
+}
+
+.avatar--size_12 {
+  height: 96px;
+  width: 96px;
+}

@@ -5,7 +5,9 @@ export default function() {
         <li>
           <a href="/button">Button</a>
         </li>
-        <li>Avatar</li>
+        <li>
+          <a href="/avatar">Avatar</a>
+        </li>
         <li>Text</li>
       </ul>
     </main>

@@ -1,0 +1,19 @@
+:root {
+  --theme-sheet-background-color: white;
+}
+.sheet {
+  box-sizing: border-box;
+  background-color: var(--theme-sheet-background-color);
+  transition: all 0.2s ease 0s;
+}
+
+.sheet--depth_0 {
+}
+
+.sheet--depth_1 {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 5px 0px;
+}
+
+.sheet--depth_2 {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 5px 10px 0px;
+}
