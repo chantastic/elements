@@ -35,6 +35,39 @@ They're stack agnostic.
 The main exports of this project are browser-standard — CSS and JavaScript.  
 In addition, there are non-standard React component consumers.
 
+## Thinking as of 11/4
+
+This is how it decomposes:
+
+```jsx
+// App-level
+<LargeCreateAction />
+<CreateAction size={6} />
+<DestroyAction size={6} />
+
+// primary-library-export
+import Action from "@planningcenter/elements"
+<Action size={6} variant="create" />
+
+// library-level export
+export function Action() {
+  return <Button
+    className={[
+      "action",
+      `action--variant_${props.varient}`,
+      `action--size_${props.size}`,
+    ].join(" ")}
+  />
+}
+
+// browser-output
+<button
+  type="button"
+  className="button button--variant_create button--size_6"
+/>
+```
+
+
 
 ## Thinking as of 11/1
 
