@@ -50,7 +50,7 @@ import Action from "@planningcenter/elements/action"
 <Action size={6} variant="create" />
 
 // library-level export
-export function Action() {
+export function Action(props) {
   return <Button
     className={[
       "action",
