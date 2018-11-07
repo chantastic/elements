@@ -46,7 +46,7 @@ This is how it decomposes:
 <DestroyAction size={6} />
 
 // primary-library-export
-import Action from "@planningcenter/elements"
+import Action from "@planningcenter/elements/action"
 <Action size={6} variant="create" />
 
 // library-level export
